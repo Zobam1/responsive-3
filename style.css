@@ -51,8 +51,7 @@ p {
   text-transform: capitalize;
 }
 .card-links {
-  display: flex;
-  margin-top: 2em;
+  margin-top: 5em;
 }
 
 .contact-link {
@@ -106,4 +105,17 @@ img {
 .card-title {
   font-size: 48px;
   font-weight: 600;
+}
+@media (max-width: 575px) {
+  h1 {
+    font-size: 47px;
+  }
+  .yogaimg,
+  .yogurtimg,
+  .weatherimg {
+    display: none;
+  }
+  .card-links a {
+    font-size: 12px;
+  }
 }
